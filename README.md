@@ -3,8 +3,6 @@
 
 ### How it works
 
-This write-up is a summary of what I've learned about React through this tutorial.
-
 First of all, this program has the function `Square(props)` that returns a button with the following properties: 
 - `winSquare`: `true` if the square is one of the three that causes a win (else `false`)
 - `className`: `square`, which styles it via the CSS file 
