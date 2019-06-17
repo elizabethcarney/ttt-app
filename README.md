@@ -132,8 +132,8 @@ Finally, we call ReactDOM.render() and render the Game into the HTML element cal
    - If so, the status message changes to say "It's a draw!" instead of saying whose turn it is or who the winner is
    - Another approach could've been to check whether the 9th move had happened yet
 
-<br/>
 ______
+
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
