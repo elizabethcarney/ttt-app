@@ -1,13 +1,77 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font: 14px "Palatino", Futura, sans-serif;
+    margin: 20px;
+    cursor: default;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ol, ul {
+    padding-left: 25px;
+}
+#firstli {
+    list-style-type: none;
+}
+.gibutton {
+    font: 13px "Palatino", Futura, sans-serif;
+    margin-bottom: 5px;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 7px;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+    padding-top: 4px;
+}
+button:focus {
+    outline: 0;
+}
+.selectedButton {
+    font-weight: bold;
+}
+#switch-button {
+    display: block;
+    margin-top: 10px;
+}
+  
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+  
+.status {
+    margin-bottom: 10px;
+}
+  
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    box-shadow: 1px 1px;
+}
+.square:focus {
+    outline: none;
+}
+.winSquare {
+    background: #b4ff77;
+}
+  
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+  
+.game {
+    display: flex;
+    flex-direction: row;
+}
+  
+.game-info {
+    margin-left: 20px;
 }
